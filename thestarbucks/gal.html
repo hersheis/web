@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+ box-sizing: border-box;
+}
+
+body {
+ background-image: url("5519853-starbucks-wallpapers.jpg");
+ background-repeat: no-repeat;
+ background-size: 100%;
+ padding: 20px;
+ font-family: Century Gothic;
+}
+
+.topnav {
+ overflow: hidden;
+ background-color: #333;
+}
+
+.topnav a {
+ float: right;
+ color: #f2f2f2;
+ padding: 15px 16px;
+ text-decoration: none;
+ font-size: 17px;
+ font-family: "CENTURY GOTHIC";
+}
+
+.topnav a:hover {
+ background-color: #ddd;
+ color: black;
+}
+
+.topnav a.active {
+ background-color: #4CAF50;
+ color: white;
+}
+
+.main {
+ max-width: 1000px;
+ margin: auto;
+}
+
+h1 {
+ font-size: 50px;
+ word-break: break-all;
+ font-family: "Century Gothic";
+ color: white;
+ text-shadow: 2px 2px 4px #000000;
+}
+
+h2{
+font-family: "Century Gothic";
+ color: white;
+ text-shadow: 2px 2px 4px #000000;
+}
+
+.row {
+ margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+ padding: 8px;
+}
+
+.column {
+ float: left;
+ width: 25%;
+}
+
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+.content {
+ background-color: white;
+ padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+ .column {
+ width: 50%;
+ }
+}
+
+@media screen and (max-width: 600px) {
+ .column {
+ width: 100%;
+ }
+}
+</style>
+</head>
+<body>
+<div class="topnav">
+ <img class="logo" src="starbucks_48px.png">
+ <a href="auto.html">Home</a>
+ <a href="#news">News</a>
+ <a href="#contact">Contact</a>
+ <a href="#about">About</a>
+</div>
+<div style="padding-left:16px">
+</div>
+
+<div class="main">
+<h1>STARBUCKS GALLERY</h1>
+<hr>
+<h2>Beverages</h2>
+<div class="row">
+ <div class="column">
+ <div class="content">
+ <img src="gallery\1.jpg" alt="Mountains" style="width:100%">
+ <h3>Cappuccino</h3>
+ </div>
+ </div>
+ <div class="column">
+ <div class="content">
+ <img src="gallery\4.jpg" alt="Lights" style="width:100%">
+ <h3>Coffee Cooler</h3>
+ </div>
+ </div>
+ <div class="column">
+ <div class="content">
+ <img src="gallery\3.png" alt="Nature" style="width:100%">
+ <h3>Tiramizu-Tiramoko</h3>
+ </div>
+ </div>
+ <div class="column">
+ <div class="content">
+ <img src="gallery\5.jpg" alt="Mountains" style="width:100%">
+ <h3>Christmas Jolly Frappe</h3>
+ </div>
+ </div>
+
+</div>
+<div class="content">
+ <img src="gallery\2.png" alt="Bear" style="width:100%">
+ <h3>Nescafe 3in1 with Choco Ensaimada</h3>
+ <p>Try our best seller!</p>
+</div>
+
+</div>
+</body>
+</html>
