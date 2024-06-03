@@ -1,0 +1,66 @@
+body{
+    background-color: #c44886;
+}
+
+h1{
+    text-align: center;
+}
+
+.one{
+    position: relative;
+}
+   
+.two{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("C:\Users\Queenie\Desktop\WEB DEV_SECTION SCROLL\pic08.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    padding: 300px;
+    margin-bottom: -20vw;
+    font-family: "CENTURY GOTHIC";
+    color: white;
+}
+
+.three{
+    background-color: #DA2D31;
+    padding: 400px;
+}
+
+.four{
+    font-family: century gothic;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.box1{
+    font-family: "century gothic";
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+    width: 500px;
+    height: auto;
+    float: left;
+    border: solid;
+    background-color: rgb(0,0,0,0.5);
+}
+   
+.text{
+    font-size: 15em;
+    font-family: "CENTURY GOTHIC";
+    text-shadow: 2px 2px 4px #000000;
+}
+   
+h4{
+    text-align: center;
+    font-size: 40px;
+}
+   
+h5{
+    text-align: center;
+    font-size: 30px;
+}
