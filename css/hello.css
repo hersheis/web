@@ -1,0 +1,11 @@
+h1 {
+    font-family:Baskerville, cambria, serif;
+    font-size: 24px;
+}
+.orangered {
+    color: orangered;
+}
+#hello {
+    font-weight: bold;
+    font-style: italic;
+}
