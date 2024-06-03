@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <link rel="stylesheet" href="C:\Users\Queenie\Desktop\queennie\Bootstrap File\css\bootstrap.css">
+        <link rel="stylesheet" href="C:\Users\Queenie\Desktop\queennie\Basic Calculator\src\css\bootstrap.css">
+        <title>Aimee Acosta</title>
+        <script type="text/javascript">
+            function add(){
+                first = parseInt(document.getElementById("first").value)
+                second = parseInt(document.getElementById("second").value)
+                document.getElementById("Add").value =
+            parseInt(document.getElementById("first").value) +
+            parseInt(document.getElementById("second").value)
+            }
+            function subtract(){
+                first = parseInt(document.getElementById("sfirst").value)
+                second = parseInt(document.getElementById("ssecond").value)
+                document.getElementById("Subs").value =
+            parseInt(document.getElementById("sfirst").value) -
+            parseInt(document.getElementById("ssecond").value)
+            }
+            function multiply(){
+                first = parseInt(document.getElementById("mfirst").value)
+                second = parseInt(document.getElementById("msecond").value)
+                document.getElementById("multi").value =
+            parseInt(document.getElementById("mfirst").value) *
+            parseInt(document.getElementById("msecond").value)
+            }
+            function division(){
+                first = parseInt(document.getElementById("dfirst").value)
+                second = parseInt(document.getElementById("dsecond").value)
+                document.getElementById("divide").value =
+            parseInt(document.getElementById("dfirst").value) /
+            parseInt(document.getElementById("dsecond").value)
+            }
+        </script>
+        <style type="text/css">
+            .row .card{
+                width: 100%;
+                transition: all ease 0.5s;
+                -webkit-transition: all ease 0.5s;
+                transform: scale(1);
+                -webkit-transform: scale(1);
+                box-shadow: 5px 5px 15px #000;
+                border-radius: 30px 20px 30px 23px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <nav class="navbar navrbar-expand-lg navbar-dark bg-success">
+                <a class="navbar-brand" href="#">PTCI</a>
+                <form class="navbar-nav form-inline ml-auto">
+
+                    <a href="*">
+                        <button type="button" class="btn btn-primary">HOME</button>
+                    </a>
+                </form>
+            </nav>
+        </div>
+        <div class="row ml-5 mr-5 mt-5">
+            <div class="col-sm-5 mt-4">
+                <div class="card bg-warning">
+                    <div class="card-body">
+                        <center><h5>Addition</h5></center>
+                        <div class="dropdown-divider"></div>
+                        <center><h5>Enter two number</h5></center>
+                        <div class="form-group mt-3">
+                            <label>First Number:</label>
+                            <input type="text" id="first" class="form-control">
+                        </div>
+                        <div class="form-group mt-5">
+                            <label>Second Number:</label>
+                            <input type="text" id="second" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <button type="button" value="Compute" onclick="add()" class="btn btn-primary btn-block">Compute</button>
+                            <div class="dropdown-divider"></div>
+
+                            <input type="text" id="Add" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-5 mt-4">
+                <div class="card bg-success">
+                    <div class="card-body">
+                        <center><h5>Subtraction</h5></center>
+                        <div class="dropdown-divider"></div>
+                        <center><h5>Enter two number</h5></center>
+                        <div class="form-group mt-3">
+                            <label>First Number:</label>
+                            <input type="text" id="sfirst" class="form-control">
+                        </div>
+                        <div class="form-group mt-5">
+                            <label>Second Number:</label>
+                            <input type="text" id="ssecond" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <button type="button" value="Compute" onclick="subtract()" class="btn btn-primary btn-block">Compute</button>
+                            <div class="dropdown-divider"></div>
+                            <input type="text" id="Subs" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row ml-5 mr-5 mt-5">
+            <div class="col-sm-5 mt-4">
+                <div class="card bg-info">
+                    <div class="card-body">
+                        <center><h5>Multiplication</h5></center>
+                        <div class="dropdown-divider"></div>
+                        <center><h5>Enter two number</h5></center>
+                        <div class="form-group mt-3">
+                            <label>First Number:</label>
+                            <input type="text" id="mfirst" class="form-control">
+                        </div>
+
+                        <div class="form-group mt-5">
+                            <label>Second Number:</label>
+                            <input type="text" id="msecond" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <button type="button" value="Compute" onclick="multiply()" class="btn btn-primary btn-block">Compute</button>
+                            <div class="dropdown-divider"></div>
+                            <input type="text" id="multi" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-5 mt-4">
+                <div class="card bg-danger">
+                    <div class="card-body">
+                        <center><h5>Division</h5></center>
+                        <div class="dropdown-divider"></div>
+                        <center><h5>Enter two number</h5></center>
+                        <div class="form-group mt-3">
+                            <label>First Number:</label>
+                            <input type="text" id="dfirst" class="form-control">
+                        </div>
+
+                        <div class="form-group mt-5">
+                            <label>Second Number:</label>
+                            <input type="text" id="dsecond" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <button type="button" value="Compute" onclick="division()" class="btn btn-primary btn-block">Compute</button>
+                            <div class="dropdown-divider"></div>
+                            <input type="text" id="divide" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
